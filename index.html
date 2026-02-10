@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desperate Housewives</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="data.js" defer></script>
+    <script src="script.js" defer></script>
+    
+<link rel="icon" href="photos/favicon.html" type="image/x-icon">
+
+</head>
+
+<body>
+
+  <section class="hero">
+   <div class="hero-overlay">
+    <div class="logo-dh">
+  <img src="photos/logo.png" alt="Logo du site">
+</div>
+    <h2>Derrière chaque maison parfaite…</h2>
+    <p>se cache un secret.</p>
+    <button class="hero-btn" id="enterSite" aria-label="Accéder au site">
+      Découvrir Wisteria Lane
+    </button>
+  </div>
+</section>
+
+ <div id="site-content">
+
+    <section class="top-page">
+        <header class="header">
+          <div class="title-bar">
+             <h1 class="title">Desperate Housewives</h1>
+              <div class="search-bar">
+  <input type="text" id="searchInput" placeholder="Rechercher sur Wisteria Lane…">
+  <div id="suggestions"></div>
+</div></div>
+              <nav class="menu">
+                <strong>
+                <a href="#accueil">Accueil</a>
+                <a href="#casting">Casting</a>
+                <a href="#anecdotes">Anecdotes de tournage</a>
+                <a href="#streaming">Streaming</a>
+                <a href="#similar">Titres similaires</a>
+              </strong>
+              </nav>
+        </header>
+       
+        
+</section>
+ <main>
+ <section id="accueil" class="why">
+
+  <p class="why-intro">
+    Parce que derrière les maisons parfaites se cachent des vies imparfaites.
+    Desperate Housewives explore les secrets, les mensonges et les drames de
+    Wisteria Lane à travers des femmes fortes et inoubliables. J’ai choisi cette série parce que plusieurs femmes comme moi peuvent  se reconnaître en ces femmes de maison, dans leurs contradictions, leurs erreurs et leur manière de faire face aux difficultés. Chaque personnage m’a touchée différemment et m’a fait ressentir des émotions fortes, entre rires, colère et tristesse. C’est une série qui m’a marquée et dans laquelle je me sens proche. Quelques images pour vous emmener à Wisteria Lane quelques minutes...
+  </p>
+
+  <div class="why-cards">
+    <div class="why-card">
+      <span>🏠</span>
+      <h3>Une façade parfaite</h3>
+      <p>Une banlieue chic où chaque maison cache une vérité dérangeante.</p>
+    </div>
+
+    <div class="why-card">
+      <span>🔎</span>
+      <h3>Des secrets omniprésents</h3>
+      <p>Mensonges, mystères, meurtres et scandales rythment le quotidien.</p>
+    </div>
+
+    <div class="why-card">
+      <span>👠</span>
+      <h3>Des femmes marquantes</h3>
+      <p>Bree, Susan, Gaby et Lynette et pleins d'autres incarnent des femmes complexes et humaines.</p>
+    </div>
+  </div>
+
+<div class="container hero-section">
+  <div class="left-column">
+    <img src="photos/background-cover.jpg" alt="img filles" class="center-img girls-map">
+
+    <div class="secrets-box">
+      <button id="toggleSecrets">👁️ Appuyer pour découvrir leurs secrets</button>
+      <div id="secretsContent">
+        <p><strong>Bree :</strong> A abandonné son fils sur une aire d'autoroute.</p>
+        <p><strong>Lynette :</strong> A caché sa grossesse à son patron.</p>
+        <p><strong>Susan :</strong> A accidentellement brûlé la maison de son ennemie.</p>
+        <p><strong>Gabby :</strong> A trompé son mari avec son jardinier.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="right-column">
+    <div class="panorama">
+  <div class="wisteria-section">
+  <h2 id="wisteria" class="wisteria-title">Wisteria Lane</h2>
+  <div class="wisteria-image-container">
+    <figure class="img-block">
+  <img 
+    src="photos/Wisteria-Lane.jpeg"
+    alt="Wisteria Lane dans Desperate Housewives"
+    class="wisteria-img panorama-img zoomable"
+    data-full="photos/Wisteria-Lane.jpeg"
+  >
+
+  <figcaption>
+    Image extraite de <em>Wisteria Lane - Fandom</em> – 
+    <a href="https://desperatehousewives.fandom.com/fr/wiki/Wisteria_Lane" target="_blank">
+      Source
+    </a>
+  </figcaption>
+</figure>
+
+  <p class="wisteria-caption">
+    Wisteria Lane, ou « Allée des Glycines », est la rue fictive de Fairview où se déroule Desperate Housewives. Cette banlieue chic américaine, avec ses grandes maisons et pelouses parfaites, faisait partie des décors permanents des Universal Studios.
+  </p>
+</div> 
+ </div>
+  </div>
+   </div>
+   
+
+
+
+        <section id="casting-section">
+          <h2 id="casting" class="section-title">Casting</h2>
+
+        
+          <div id="gabby" class="background"></div>
+          <div class="content">
+            <h1>Eva Longoria</h1>
+            <p>Gaby est mon personnage préférée de la série, elle est authentique, drôle et féminine. Elle a ses défauts et ses qualités. Mais derrière cette façade superficiel qu'elle montre, se cache une femme tendre et forte et loyale. Personne ne peut passer à côté de Gabby sans la remarquer !</p>
+          </div>
+      
+
+          <div id="lynette" class="background"></div>
+            <div class="content">
+            <h1>Felicity Huffman</h1>
+            <p>Lynette est une femme forte, pragmatique et combative, constamment en lutte entre carrière et vie de famille. J'aime Lynette pour sa force mentale et son courage. Elle tient son foyer à bout de bras avec ses innombrables enfants en y comptant son mari !</p>
+          </div>
+  
+
+      
+          <div id="bree" class="background"></div>
+          <div class="content">
+            <h1>Marcia Cross</h1>
+            <p>Bree incarne la perfection : élégante, disciplinée et obsédée par le contrôle. Derrière son image irréprochable se cache une femme complexe, prête à tout pour protéger sa famille. Cette femme est fascinante et son évolution au cours des saisons montrent que les femmes ont des humeurs de caméléon !</p>
+          </div>
+         
+       
+        
+          <div id="susane" class="background"></div>
+            <div class="content">
+            <h1>Teri Hatcher</h1>
+            <p>Susan est maladroite, sensible et romantique, souvent guidée par ses émotions. Elle apporte une touche de légèreté et de sincérité à Wisteria Lane. J'aime beaucoup son personnage très particulier qui nous fait l'aimer et l'a détester à la fois !</p>
+          </div>
+          </section>
+          
+
+
+
+          <section class="anecdotes">
+          <h2 id="anecdotes" class="section-title">Anecdotes de tournage 🎬</h2>
+          <div class="claps">
+
+    
+        <div class="clap-card">
+        <div class="clap-inner">
+        <div class="clap-front">
+          <h3>Eva Longoria (Gabrielle Solis) a gardé la robe comme souvenir à la fin de la saison.</h3>
+          <div class="choices">
+            <button class="choice" data-answer="true">Vrai</button>
+            <button class="choice" data-answer="false">Faux</button>
+          </div>
+        </div>
+         <div class="clap-back">
+          <p>Une fan est tombée amoureuse de la robe d'Eva Longoria (Gabrielle Solis) et a écrit à la production pour demander la référence de la robe, la production lui a offert la robe et elle l'a portée à sa cérémonie de remise des diplômes. </p>
+          <figure class="img-block">
+  <img 
+    src="photos/robe-gaby.jpeg"
+    alt="Eva Longoria dans Desperate Housewives"
+    class="zoomable"
+    data-full="photos/robe-gaby.jpg">
+  <figcaption>
+    Image issue de <em>Threads</em> – 
+    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbTi9GEdsiVv0ZfTRx1gqhcFJ9Jxw3lq35Sw&s" target="_blank">
+      Source
+    </a>
+  </figcaption>
+</figure>
+
+          <p class="feedback"></p>
+            <button class="next-clap">Suivant</button>
+        </div>
+         </div>
+          </div>
+
+
+         <div class="clap-card">
+         <div class="clap-inner">
+         <div class="clap-front">
+          <h3>La scène où Susan tombe sur un gateau de mariage a été entièrement tournée avec une doublure cascade</h3>
+          <div class="choices">
+            <button class="choice" data-answer="true">Vrai</button>
+            <button class="choice" data-answer="false">Faux</button>
+          </div>
+        </div>
+         <div class="clap-back">
+          <p>Teri Hatcher (Susan Mayer) s'est fêlé deux côtes durant le tournage de cette scène, et elle a continué à doner la réplique malgé la douleur.</p>
+         <figure class="img-block">
+  <img 
+    src="photos/gateau-susan.avif"
+    alt="Anecdotes Teri Hatcher"
+    class="zoomable"
+    data-full="photos/gateau-susan.avif"
+  >
+  <figcaption>
+    Image issue de <em>Tiktok</em> – 
+    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGQCj0mxF8gO3pG69hu8A-sVrUTBTUpLpFIg&s" target="_blank">Source</a>
+  </figcaption>
+</figure>
+
+          <p class="feedback"></p>
+            <button class="next-clap">Suivant</button>
+        </div>
+         </div>
+          </div>
+
+
+         <div class="clap-card">
+         <div class="clap-inner">
+         <div class="clap-front">
+          <h3>Kathryn Joosten (Karen McCluskey) est décédée d’un cancer du poumon peu après la mort de son personnage dans la série.</h3>
+          <div class="choices">
+            <button class="choice" data-answer="true">Vrai</button>
+            <button class="choice" data-answer="false">Faux</button>
+        
+          </div>
+        </div>
+        <div class="clap-back">
+          <p>Kathryn Joosten (Karen McCluskey) est décédée d'un cancer du poumon peu de temps après la mort de son personnage, également atteint d'un cancer dans la série.</p>
+          <figure class="img-block">
+  <img 
+    src="photos/karen-mcClueskey.jpeg"
+    alt="Anecdote Karen McCluskey"
+    class="zoomable"
+    data-full="photos/karen-mcClueskey"
+  >
+  <figcaption>
+    Image issue de <em>Purepeople</em> – 
+    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2zA41yN6bqwz7EpXz9WwaLOiaDP_IeSfcoQ&s" target="_blank">Source</a>
+  </figcaption>
+</figure>
+
+          <p class="feedback"></p>
+            <button class="next-clap">Suivant</button>
+        </div>
+         </div> 
+        </div>
+ 
+
+         <div class="clap-card">
+         <div class="clap-inner">
+         <div class="clap-front">
+          <h3>Le personnage de Bree a été inspirée d'un rêve de Marc Cherry.</h3>
+          <div class="choices">
+            <button class="choice" data-answer="true">Vrai</button>
+            <button class="choice" data-answer="false">Faux</button>
+          </div>
+        </div>
+        <div class="clap-back">
+          <p>Le personnage de Bree Van de Kamp est tiré de la mère de Marc Cherry, le créateur de la série. La réplique "Je t'aimerais même si tu étais un meurtrier" provient d'une phrase vraiment prononcée par sa mère à l'annonce de son homosexualité.</p>
+          <figure class="img-block">
+  <img 
+    src="photos/bree-mère.avif"
+    alt="Anecdote Bree"
+    class="zoomable"
+    data-full="photos/bree-mère"
+  >
+  <figcaption>
+    Image issue de <em>Wisteria Lane - Fandom</em> – 
+    <a href="https://desperatehousewives.fandom.com/wiki/Bree_Van_de_Kamp" target="_blank">Source</a>
+  </figcaption>
+</figure>
+
+          <p class="feedback"></p>
+            <button class="next-clap">Suivant</button>
+        </div>
+         </div>
+          </div>
+
+
+         <div class="clap-card">
+         <div class="clap-inner">
+         <div class="clap-front">
+          <h3>Eva Longoria a été prise au casting car sa vrai personnalité correspondait a celle de son personnage Gaby.</h3>
+          <div class="choices">
+            <button class="choice" data-answer="true">Vrai</button>
+            <button class="choice" data-answer="false">Faux</button>
+          </div>
+        </div>
+         <div class="clap-back">
+          <p>Eva Longoria n'avait pas lu le scénario en entier, mais simplement les parties où son personnage intervient. En apprenant cela, le producteur Marc Cherry l'a engagée car elle était parfaite pour interpréter le rôle de la capricieuse Gaby.</p>
+          <figure class="img-block">
+            <img 
+    src="photos/gaby-anecdote.webp"
+    alt="Gaby anecdote 2"
+    class="zoomable"
+    data-full="photos/gaby-anecdote.webp">
+  <figcaption>
+    Image issue de <em>Wisteria Lane - Fandom</em> – 
+    <a href="https://desperatehousewives.fandom.com/wiki/Gabrielle_Solis" target="_blank">Source</a>
+  </figcaption>
+</figure>
+
+          <p class="feedback"></p>
+        </div>
+      </div>
+    </div>
+    <section id="share-anecdote" class="anecdote-form-section">
+  <h2 class="section-title">Partage ton anecdote 📝</h2>
+  <p class="form-intro">
+    Tu connais un fun fact sur Desperate Housewives ? Partage-le avec nous !
+  </p>
+  <form id="anecdoteForm">
+    
+    <label for="name">Ton prénom :</label>
+    <input type="text" id="name" name="name" placeholder="Ex : Ayana" required>
+
+    <label for="character">Personnage préféré :</label>
+    <select id="character" name="character" required>
+      <option value="">-- Choisis un personnage --</option>
+      <option value="bree">Bree</option>
+      <option value="lynette">Lynette</option>
+      <option value="gabby">Gabby</option>
+      <option value="susan">Susan</option>
+    </select>
+
+   <label for="texteAnecdote">
+  Texte de l'anecdote (obligatoire, entre 10 et 300 caractères) :
+</label>
+<textarea id="texteAnecdote" name="texteAnecdote" required minlength="10" maxlength="300" placeholder="Écris ton anecdote ici…"></textarea>
+
+
+    <button type="submit">Envoyer</button>
+    <p class="form-feedback"></p>
+  </form>
+</section>
+
+
+   
+
+  </div>
+</section>
+<section class="similar">
+ <h2 id="similar" class="section-title">Titres similaires</h2>
+
+ <section class="polaroids">
+  <div class="polaroid rotate-1">
+    <img src="photos/Big-little-lies.jpg" alt="Big Little Lies">
+    <p>Big Little Lies</p>
+  </div>
+
+  <div class="polaroid rotate-2">
+    <img src="photos/devious-maids.webp" alt="Devious Maids">
+    <p>Devious Maids</p>
+  </div>
+
+  <div class="polaroid rotate-3">
+    <img src="photos/PLL.jpg" alt="Pretty Little Liars">
+    <p>Pretty Little Liars</p>
+  </div>
+
+  <div class="polaroid rotate-4">
+    <img src="photos/WWK.jpg" alt="Why Women Kill">
+    <p>Why Women Kill</p>
+  </div>
+
+    <div class="polaroid rotate-5">
+    <img src="photos/bad-sisters.webp" alt="Bad sisters">
+    <p>Bad Sisters</p>
+  </div>
+
+    <div class="polaroid rotate-6">
+    <img src="photos/good-girls.jpg" alt="Good Girls">
+    <p>Good girls</p>
+  </div>
+</section>
+ </section>
+ 
+
+          <h2 id="streaming" class="section-title">Disponible en streaming sur</h2>
+            <div class="slide">
+            <div class="track">
+              <a href="https://www.disneyplus.com/fr" target="_blank" class="service">
+      <img src="photos/disney+.jpg" alt="Disney+">
+      <span>Disney+</span>
+    </a>
+              <a href="https://www.canalplus.com" target="_blank" class="service">
+      <img src="photos/canal+.webp" alt="Canal+">
+      <span>Canal+</span>
+    </a>
+            
+              <a href="https://www.m6.fr" target="_blank" class="service">
+      <img src="photos/m6.png" alt="M6">
+      <span>M6</span>
+    </a>
+            
+              <a href="https://www.primevideo.com" target="_blank" class="service">
+      <img src="photos/prime-video.png" alt="Prime Video">
+      <span>Prime Video</span>
+    </a>
+            
+               <a href="https://www.apple.com/fr/apple-tv-plus/" target="_blank" class="service">
+      <img src="photos/apple-tv.png" alt="Apple TV">
+      <span>Apple TV</span>
+    </a>
+
+  
+              <a href="https://www.disneyplus.com/fr" target="_blank" class="service">
+      <img src="photos/disney+.jpg" alt="Disney+">
+      <span>Disney+</span>
+    </a>
+    
+              <a href="https://www.canalplus.com" target="_blank" class="service">
+      <img src="photos/canal+.webp" alt="Canal+">
+      <span>Canal+</span>
+    </a>
+    
+              <a href="https://www.m6.fr" target="_blank" class="service">
+      <img src="photos/m6.png" alt="M6">
+      <span>M6</span>
+    </a>
+            
+              <a href="https://www.primevideo.com" target="_blank" class="service">
+      <img src="photos/prime-video.png" alt="Prime Video">
+      <span>Prime Video</span>
+    </a>
+               
+               <a href="https://www.apple.com/fr/apple-tv-plus/" target="_blank" class="service">
+      <img src="photos/apple-tv.png" alt="Apple TV">
+      <span>Apple TV</span>
+    </a>
+            </div>
+          </div>
+
+         </main>
+        
+         <footer>
+          <footer class="footer">
+  <p>
+    © 2026 – Desperate Housewives Fan Site |
+    <button id="openMentions" class="mentions-btn" aria-label="Ouvrir les mentions légales">Mentions légales</button>
+  </p>
+  <p class="copyright">
+  Images issues de Desperate Housewives – utilisées à titre illustratif dans un cadre pédagogique.
+</p>
+
+</footer>
+<div id="mentionsModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Mentions légales</h2>
+
+    <p><strong>Éditeur du site :</strong><br>
+    Ayana – Étudiante, Projet scolaire<br>
+    Site réalisé dans un cadre éducatif.</p>
+
+    <p><strong>Hébergement :</strong><br>
+    Hébergeur départementale / o2switch</p>
+
+    <p><strong>Propriété intellectuelle :</strong><br>
+   Desperate Housewives est une série télévisée créée par Marc Cherry.
+Tous les droits appartiennent à leurs ayants droit respectifs (ABC Studios / Disney).
+Ce site est un fan site non officiel réalisé à des fins pédagogiques.
+Les images et extraits sont utilisés à titre illustratif et sans but commercial.</p>
+
+    <p><strong>Responsabilité :</strong><br>
+   L’éditrice du site ne peut être tenue responsable de l’utilisation faite du contenu.
+Ce site n’a aucun lien officiel avec les producteurs ou diffuseurs de la série.</p>
+
+    <p><strong>Données personnelles :</strong><br>
+    Aucune donnée personnelle n’est collectée.
+    Aucun cookie de suivi n'est utilisé.</p>
+  </div>
+</div>
+
+
+         </footer>
+    </section>
+</div>
+<div class="apples"></div>
+<div id="zoomModal" class="zoom-modal">
+  <span class="zoom-close">&times;</span>
+  <img id="zoomImg" alt="">
+</div>
+
+</body>
+
+</html>
